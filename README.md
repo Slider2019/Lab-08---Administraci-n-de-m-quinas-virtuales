@@ -168,7 +168,7 @@ Azure ofrece flexibilidad en la selección de tamaños de VM, lo que nos permite
 
 2. Configuramos el tamaño de la máquina virtual a **D2ds_v4** y hacemos clic en **Resize**. Cuando se nos solicite, confirmamos el cambio.  
    - **Nota:** Si **D2ds_v4** no está disponible, elegimos otro tamaño. Este proceso se conoce como **escalado vertical**, hacia arriba o hacia abajo.
-   ![Creación de VM](./images/12.png)
+![Creación de VM](./images/12.png)
 
 3. En el área **Settings**, seleccionamos **Disks**.  
 ![Creación de VM](./images/15.png)
