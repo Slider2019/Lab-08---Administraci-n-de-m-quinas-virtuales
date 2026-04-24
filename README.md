@@ -164,14 +164,14 @@ En esta tarea escalamos una máquina virtual ajustando su tamaño a un SKU difer
 Azure ofrece flexibilidad en la selección de tamaños de VM, lo que nos permite asignar más (o menos) recursos de cómputo y memoria según las necesidades. Este concepto también se aplica a los discos, donde podemos modificar el rendimiento o aumentar la capacidad asignada.
 
 1. En la máquina virtual **az104-vm1**, en el panel **Availability + scale**, seleccionamos **Size**.
-![Creación de VM](./images/11.png)
+  ![Creación de VM](./images/11.png)
 
 2. Configuramos el tamaño de la máquina virtual a **D2ds_v4** y hacemos clic en **Resize**. Cuando se nos solicite, confirmamos el cambio.  
    - **Nota:** Si **D2ds_v4** no está disponible, elegimos otro tamaño. Este proceso se conoce como **escalado vertical**, hacia arriba o hacia abajo.
-![Creación de VM](./images/12.png)
+  ![Creación de VM](./images/12.png)
 
 3. En el área **Settings**, seleccionamos **Disks**.  
-![Creación de VM](./images/15.png)
+  ![Creación de VM](./images/15.png)
 
 4. En la sección **Data disks**, seleccionamos **+ Create and attach a new disk** y configuramos los siguientes valores (dejamos los demás por defecto):
    - **Disk name:** `vm1-disk1`  
